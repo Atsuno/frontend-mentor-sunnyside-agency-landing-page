@@ -1,14 +1,14 @@
-import { Itim, Roboto } from 'next/font/google'
+import { Barlow, Fraunces } from 'next/font/google'
 
-const fontPrimary = Roboto({
+const fontPrimary = Barlow({
   subsets: ['latin'],
-  weight: ['400'],
+  weight: ['600'],
   variable: '--font-primary',
 })
 
-const fontSecondary = Itim({
+const fontSecondary = Fraunces({
   subsets: ['latin'],
-  weight: ['400'],
+  weight: ['700', '900'],
   variable: '--font-secondary',
 })
 

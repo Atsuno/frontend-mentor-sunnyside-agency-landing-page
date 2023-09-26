@@ -1,5 +1,4 @@
 import daisyui from 'daisyui'
-import daisyuiThemes from 'daisyui/src/theming/themes'
 import type { Config } from 'tailwindcss'
 
 const config: Config = {
@@ -15,37 +14,31 @@ const config: Config = {
         secondary: ['var(--font-secondary)'],
       },
       colors: {
-        specific: '#F0F0F0',
+        'line-one': 'hsl(7, 99%, 70%)',
+        'line-two': 'hsl(51, 100%, 49%)',
+        'graphic-text': 'hsl(167, 40%, 24%)',
+        'photography-text': 'hsl(198, 62%, 26%)',
+        'footer-color': 'hsl(168, 34%, 41%)',
+        'dark-one': 'hsl(212, 27%, 19%)',
+        'dark-two': 'hsl(213, 9%, 39%)',
+        'dark-three': 'hsl(210, 4%, 67%)',
+        'dark-four': 'hsl(232, 10%, 55%)',
+        'rear-footer': 'hsl(167, 44%, 70%)',
+      },
+      backgroundImage: {
+        'logo-mobile': 'url("/images/mobile/image-header.jpg")',
+        'logo-desktop': 'url("/images/desktop/image-header.jpg")',
+        'cherry-pic-mobile': 'url("/images/mobile/image-graphic-design.jpg")',
+        'orange-pic-mobile': 'url("/images/mobile/image-photography.jpg")',
+        'cherry-pic-desktop': 'url("/images/desktop/image-graphic-design.jpg")',
+        'orange-pic-desktop': 'url("/images/desktop/image-photography.jpg")',
       },
     },
   },
   plugins: [daisyui],
   daisyui: {
-    themes: [{
-      light: {
-        ...daisyuiThemes['[data-theme=cmyk]'],
-        /*
-        primary: '', // dominant color.
-        secondary: '', // less dominant but still distinguishable.
-        accent: '', // draw attention, notifications, highlighted text
-        neutral: '', // shades of blacks, grays, and whites. don't convey a specific mood or emotion on their own.
-        'base-100': '', // base backgrounds color.
-        'base-content': '', // base content color.
-        */
-      },
-      dark: {
-        ...daisyuiThemes['[data-theme=dark]'],
-        /*
-        primary: '', // dominant color.
-        secondary: '', // less dominant but still distinguishable.
-        accent: '', // draw attention, notifications, highlighted text
-        neutral: '', // shades of blacks, grays, and whites. don't convey a specific mood or emotion on their own.
-        'base-100': '', // base backgrounds color.
-        'base-content': '', // base content color.
-        */
-      },
-    }],
-    darkTheme: 'dark',
+    themes: [],
+    darkTheme: 'light',
     logs: false,
   },
 }

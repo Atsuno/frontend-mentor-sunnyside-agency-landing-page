@@ -1,4 +1,9 @@
 import type { Metadata } from 'next'
+import Banner from '@/components/Banner'
+import ClientReview from '@/components/ClientReview'
+import FooterBar from '@/components/FooterBar'
+import Gallery from '@/components/Gallery'
+import GridContent from '@/components/GridContent'
 
 export const metadata: Metadata = {
   title: 'Frontend Mentor | Sunnyside agency landing page',
@@ -6,11 +11,17 @@ export const metadata: Metadata = {
 }
 
 const PageHome = () => (
-  <main className="flex min-h-screen flex-col items-center justify-center gap-10 text-7xl">
-    <p className="text-primary">Hello World!!</p>
-    <p className="text-5xl">Test Font Primary</p>
-    <p className="font-secondary text-5xl ">Test Font Secondary</p>
-  </main>
+  <section className=" lg:max-w-7xl ">
+    <header>
+      <Banner />
+    </header>
+    <main>
+      <GridContent />
+      <ClientReview />
+      <Gallery />
+    </main>
+    <FooterBar />
+  </section>
 )
 
 export default PageHome
