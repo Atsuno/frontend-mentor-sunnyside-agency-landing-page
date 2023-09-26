@@ -24,6 +24,7 @@ const config: Config = {
         'dark-three': 'hsl(210, 4%, 67%)',
         'dark-four': 'hsl(232, 10%, 55%)',
         'rear-footer': 'hsl(167, 44%, 70%)',
+        'link-color': 'hsl(228, 45%, 44%)',
       },
       backgroundImage: {
         'logo-mobile': 'url("/images/mobile/image-header.jpg")',

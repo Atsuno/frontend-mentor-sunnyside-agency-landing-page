@@ -1,6 +1,6 @@
 # live Demo
 
-https://atsuno.github.io/frontend-mentor-sunnyside-agency-landing-page-coding
+https://atsuno.github.io/frontend-mentor-sunnyside-agency-landing-page
 
 >The below information is original challenge README from [CHALLENGE Sunnyside agency landing page](https://www.frontendmentor.io/challenges/sunnyside-agency-landing-page-7yVs3B6ef)
 
