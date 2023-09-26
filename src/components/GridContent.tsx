@@ -36,13 +36,13 @@ const GridContent = () => (
       </div>
     </div>
 
-    <div className="flex h-full w-full flex-col  items-center justify-end bg-cherry-pic-mobile  bg-cover bg-center bg-no-repeat  p-5 text-center md:h-[450px] md:bg-cherry-pic-desktop lg:h-[600px]">
+    <div className="flex h-full w-full flex-col items-center justify-end bg-image-mobile-one bg-cover bg-center bg-no-repeat p-5 text-center md:h-[450px] md:bg-image-desktop-one lg:h-[600px]">
       <h3 className="pb-4 font-secondary text-3xl font-extrabold text-graphic-text ">Graphic design</h3>
       <p className="px-[10%] pb-5 text-graphic-text">
         Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.
       </p>
     </div>
-    <div className="flex h-full w-full flex-col items-center justify-end bg-orange-pic-mobile bg-cover bg-center bg-no-repeat  p-5 text-center md:h-[450px] md:bg-orange-pic-desktop lg:h-[600px]">
+    <div className="flex h-full w-full flex-col items-center justify-end bg-image-mobile-two bg-cover bg-center bg-no-repeat p-5 text-center md:h-[450px] md:bg-image-desktop-two lg:h-[600px]">
       <h4 className="pb-4 font-secondary text-3xl font-extrabold text-photography-text ">Photography</h4>
       <p className="px-[10%] pb-5 text-photography-text">
         Increase your credibility by getting the most stunning, high-quality photos that improve your business image.
