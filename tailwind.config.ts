@@ -1,6 +1,9 @@
 import daisyui from 'daisyui'
 import type { Config } from 'tailwindcss'
 
+const REPO_PATH = '/frontendmentor-sunnyside-agency-landing-page'
+// const REPO_PATH = ''
+
 const config: Config = {
   content: [
     './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
@@ -29,10 +32,10 @@ const config: Config = {
       backgroundImage: {
         'logo-mobile': 'url("/images/mobile/image-header.jpg")',
         'logo-desktop': 'url("/images/desktop/image-header.jpg")',
-        'image-mobile-one': 'url("/images/mobile/image-graphic-design.jpg")',
-        'image-mobile-two': 'url("/images/mobile/image-photography.jpg")',
-        'image-desktop-one': 'url("/images/desktop/image-graphic-design.jpg")',
-        'image-desktop-two': 'url("/images/desktop/image-photography.jpg")',
+        'image-mobile-one': `url('${REPO_PATH}/images/mobile/image-graphic-design.jpg')`,
+        'image-mobile-two': `url("${REPO_PATH}/images/mobile/image-photography.jpg")`,
+        'image-desktop-one': `url("${REPO_PATH}/images/desktop/image-graphic-design.jpg")`,
+        'image-desktop-two': `url("${REPO_PATH}/images/desktop/image-photography.jpg")`,
       },
     },
   },
