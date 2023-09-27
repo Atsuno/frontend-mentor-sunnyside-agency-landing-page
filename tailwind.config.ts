@@ -1,7 +1,7 @@
 import daisyui from 'daisyui'
 import type { Config } from 'tailwindcss'
 
-const REPO_PATH = '/frontendmentor-sunnyside-agency-landing-page'
+const REPO_PATH = '/frontend-mentor-sunnyside-agency-landing-page'
 // const REPO_PATH = ''
 
 const config: Config = {
